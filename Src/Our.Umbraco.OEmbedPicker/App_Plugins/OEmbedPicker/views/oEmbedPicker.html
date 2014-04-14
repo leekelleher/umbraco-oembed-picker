@@ -1,0 +1,18 @@
+<div class="umb-editor umb-mediapicker" ng-controller="Our.Umbraco.PropertyEditors.OEmbedPicker">
+    
+    <div ng-show="model.value">
+        <div style="position: relative; display: inline-block;" >
+            <div ng-bind-html-unsafe="model.value"></div>
+            <a href class="picked-image" ng-click="remove()" style="display: block;"><i class="icon icon-delete"></i></a>
+        </div>
+    </div>
+
+    <ul class="umb-sortable-thumbnails" ng-hide="model.value">
+        <li style="border: none">	
+            <a href="#" class="add-link" ng-click="add()" prevent-default>
+                <i class="icon icon-add large"></i> 
+            </a>
+        </li>
+    </ul>
+
+</div>

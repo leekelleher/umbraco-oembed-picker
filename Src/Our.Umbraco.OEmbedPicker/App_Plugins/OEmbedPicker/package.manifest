@@ -1,0 +1,15 @@
+﻿{
+    propertyEditors: [
+        {
+            alias: "Our.Umbraco.OEmbedPicker",
+            name:  "OEmbed Picker",
+            editor: {
+                view: "~/App_Plugins/OEmbedPicker/views/oEmbedPicker.html",
+                valueType: "STRING"
+            }
+        }
+    ],
+    javascript: [
+        '~/App_Plugins/OEmbedPicker/js/oEmbedPicker.js'
+    ]
+} 
