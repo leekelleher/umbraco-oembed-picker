@@ -1,4 +1,3 @@
-OEmbed Picker
-===================
+# oEmbed Picker
 
-An OEmbed Picker property editor for Umbraco 7
+An oEmbed Picker property editor for Umbraco 7
